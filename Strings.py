@@ -9,6 +9,30 @@ curso.strip() #sem espaços brancos
 curso.lstrip() #sem espaços na esquerda
 curso.rstrip() #sem espaços na direita
 
+#listas
+lista = ["11" , "gustavo" , "tiago"]
+lista.remove("11") #remove algo da lista
+lista.count("11") #conta a quantidade desse elemento
+max(lista) #mostra o maior valor
+min(lista) #mostra o menor valor
+lista.extend("gato") #adiciona a lista
+lista.sort() #organiza a lista do menor ao maior numero
+
+#tuplas
+#listas que são imutaveis
+listas = ("gustavo" , 12 , "valber")
+#não a como remover ao na tupla ou trocar seu valor
+
+#dicionarios
+#dicionarios recebem uma chave e valor
+
+dc = {"numero":20 , "gustavo":10 , "12":5 }
+dc["gustavo"] #retona a chave 10
+dc["gustavo"] = 25 #trocando o valor da chave
+dc.keys() #retornando todos os valores da chava
+dc.setdefault("limao" , 23) #vendo caso ja exista essa chave,ser nao existe ela o adiciona
+
+
 print(curso.center(10 , "#"))
 #texto centralizado em 10 letras ##python##
 print(".".join(curso))

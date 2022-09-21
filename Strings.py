@@ -10,7 +10,14 @@ curso.lstrip() #sem espaços na esquerda
 curso.rstrip() #sem espaços na direita
 
 #listas
+#há varias tipos de listas
 lista = ["11" , "gustavo" , "tiago"]
+lista = list(range(10))
+
+#podemos realizar varias coisas
+
+lista.append(1) #adicionar algo a lista
+lista[0] #pegar item na posição
 lista.remove("11") #remove algo da lista
 lista.count("11") #conta a quantidade desse elemento
 max(lista) #mostra o maior valor
@@ -20,8 +27,8 @@ lista.sort() #organiza a lista do menor ao maior numero
 
 #tuplas
 #listas que são imutaveis
-listas = ("gustavo" , 12 , "valber")
-#não a como remover ao na tupla ou trocar seu valor
+tuplas = ("gustavo" , 12 , "valber")
+#não há como remover valores na tupla ou trocar
 
 #dicionarios
 #dicionarios recebem uma chave e valor
@@ -38,9 +45,8 @@ print(curso.center(10 , "#"))
 print(".".join(curso))
 # "p.y.t.h.o.n"
 
-#interpolação de variáveis
 
-#old style %
+#interpolação de variáveis
 
 #.format
 nome = "Gustavo"
@@ -66,10 +72,11 @@ print(f"Valor de pi {pi:10.2f}")
 #Fatiamento / / / /
 
 nome = "Gustavo moreira de lima"
+lista = ["p" , "y" , "t" , "h" , "o" , "n"]
 
-nome[0]
+nome[0] lista[0]
 #"G" letra na posição
-nome[:9]
+nome[:9] lista[:4]
 #Gustavo m ate a posição informada
 nome[10:]
 #"reira de lima" a partir da posição informada
@@ -77,10 +84,13 @@ nome[8:15]
 #"moreira" entre as posições
 nome[2:4:6] 
 #"utv" letras selecionadas
-nome[:]
+nome[:] lista[::]
 #espelha a variavel
-nome[: -1]
+nome[: -1] lista[::-1]
 #espelha ao contrario
+
+
+#esse tipo de fatiamento pode ser realizado com listas também
 
 #strings triplas / / / / /
 

@@ -69,6 +69,11 @@ curso = "curso"
 nome_curso = curso
 saldo, limite = 200, 200
 
+for curso, nome_curso in enumerate(curso):
+    print(f"{curso} , {nome_curso}")
+#aqui ele verificará se algo estar na lista(enumerate)
+#caso esteja ele adicionará ao contador criado(curso)
+
 curso is nome_curso
 #retorna true pois utilizam a mesma região da memoria
 
@@ -89,4 +94,5 @@ saques = [100 , 500]
 
 200 in saques
 #retorna false
+
 

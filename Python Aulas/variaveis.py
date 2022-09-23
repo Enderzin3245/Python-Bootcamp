@@ -18,10 +18,12 @@ texto = "texto sobre min" #text,literal
 int(10) #int,inteiro
 DIAS_DA_SEMANA = ["SEGUNDA","TERÇA","QUARTA","QUINTA","SEXTA"] #list str
 
+
 #constantes sao valores imultaveis e sao escritos com upper_case
 DIAS_DA_SEMANA = ["SEGUNDA","TERÇA","QUARTA","QUINTA","SEXTA"]
 print(DIAS_DA_SEMANA)
 CPF = 50505050.80
+
 
 #variaveis na mesma linha seguindo sua ordem
 

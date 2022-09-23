@@ -15,6 +15,7 @@ def sacar(self, valor: float): #inico do bloco metodo
 
 sacar()#fechamento do bloco metodo
 
+
 #estruturas condicionais / / / / / 
 #criam e realizam condições no codigo
 
@@ -29,6 +30,7 @@ else:
     #para a continução do codigo,a condição if precisa ser verdadeira
     #o else será executado quando a condição if for falsa
 
+
 opção = int(input(1 , 2 ))
 
 if(opção == 1):
@@ -40,10 +42,12 @@ elif(opção == 2):
 else:
     print("opçao obrigatoria caso as outras sejam false")
 
+
 #elif tem o mesmo significado do (if else)
 
 #if aninhado / / / / /
 #ifs,elif,else dentro de ifs,elifs,elses
+
 
 conta_normal = True
 saque = 500
@@ -68,6 +72,7 @@ elif conta_universitaria:
 #if ternário
 #condição escrita em uma linha
 #verificação simples
+
 
 status = "Sucesso" if saldo >= saque else "Falha"
 #true status = "Sucesso"

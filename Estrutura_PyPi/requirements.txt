@@ -1,0 +1,5 @@
+    Requerit:
+ . Vs Code For Progaming
+ . Google
+ . Pypi For organization and structure
+ . Understanding of Python And PHP
